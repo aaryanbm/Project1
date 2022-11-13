@@ -5,19 +5,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Aaryan</title>
+    <style>
+        .img_div {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 23rem;
+        }
+
+        .brand {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .brand h3 {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .para {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .para p {
+            font-size: 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .img_div img:hover {
+            /* background-color: red; */
+            height:220px;
+            width: 220px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div><h3>BRANDS</h3></div>
-    <div><a href="https://www.nike.com/in" target="_blank"><img src="nklogo.jpg" height="200px" width="200px"></a></div>
-    <div><a href="https://www.adidas.co.in/" target="_blank"><img src="adlg.jpg" height="200px" width="200px"></a></div>
-    <div><a href="https://in.puma.com/" target="_blank"><img src="pmlogo.jpg" height="200px" width="200px"></a></div>
-    <div><a href="https://www.skechers.in/" target="_blank"><img src="sklogo.jpg" height="200px" width="200px"></a></div>
-    <div><a href="https://www.conversesaleindia.com/" target="_blank"><img src="cnvrlogo.jpg" height="200px" width="200px"></a></div>
-    <div><a href="https://www.asics.com/in/en-in" target="_blank"><img src="asclogo.jpg" height="200px" width="200px"></a></div>
-    <div><a href="https://www.reebok.com/us" target="_blank"><img src="rbklogo.jpg" height="200px" width="200px"></a></div>
-    <div><p>You can select shoes from the official websites and give us details. We will arrange the shoes in discounted price and early delivery. </p></div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="css-task1_1.html"><img src="logo.jpg" height="40px" width="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="css-task1_1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="css-task2.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="css-task3.html">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="css-task4.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="css-task5.html">Brands</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="css-task6.html">Acessories</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="css-task7.html">Sports SHoes</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="css-task8.html">Sneakers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="css-task9.html"><img src="order.jpg"
+                                height="40px" width="40px"></a>
+                    </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="brand">
+        <h3>BRANDS</h3>
+    </div>
+
+    <div class="img_div">
+        <div><a href="https://www.nike.com/in" target="_blank"><img src="nklogo.jpg" height="200px" width="200px"></a>
+        </div>
+        <div><a href="https://www.adidas.co.in/" target="_blank"><img src="adlg.jpg" height="200px" width="200px"></a>
+        </div>
+        <div><a href="https://in.puma.com/" target="_blank"><img src="pmlogo.jpg" height="200px" width="200px"></a>
+        </div>
+        <div><a href="https://www.skechers.in/" target="_blank"><img src="sklogo.jpg" height="200px" width="200px"></a>
+        </div>
+        <div><a href="https://www.conversesaleindia.com/" target="_blank"><img src="cnvrlogo.jpg" height="200px"
+                    width="200px"></a></div>
+        <div><a href="https://www.asics.com/in/en-in" target="_blank"><img src="asclogo.jpg" height="200px"
+                    width="200px"></a></div>
+        <div><a href="https://www.reebok.com/us" target="_blank"><img src="rbklogo.jpg" height="200px"
+                    width="200px"></a>
+        </div>
+    </div>
+    <div class="para">
+        <p>You can select shoes from the official websites and give us details. We will arrange the shoes in discounted
+            price and early delivery. </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
